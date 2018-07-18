@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+var promiseObj = new promise(function (resolve,reject) {
+  setTimeout(function () {
+    resolve();
+  },3000)
+})
+
+  promiseObj.then(function () {
+    console.log(1)
+  })
+</script>
+</html>
